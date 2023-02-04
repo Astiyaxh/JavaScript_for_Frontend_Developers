@@ -145,11 +145,6 @@ p {
     transition: all 0.3s ease-in-out;
 }
 
-#back-to-top:hover {
-    background-color: #222831;
-    color: #EEEEEE;
-}
-
 #back-to-top.visible {
     opacity: 1;
 }
