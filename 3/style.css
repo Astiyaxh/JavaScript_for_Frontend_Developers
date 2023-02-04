@@ -68,7 +68,7 @@ h4,
 h5,
 h6 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    /* letter-spacing: -1px; */
+    letter-spacing: -1px;
     text-transform: capitalize;
     color: white;
 }
