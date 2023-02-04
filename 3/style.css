@@ -85,7 +85,7 @@ h2 {
 
 h3 {
     font-size: 1.953rem;
-    margin-bottom: 0.5rem;
+    margin-top: 3rem;
 }
 
 p {
@@ -94,7 +94,8 @@ p {
     width: 50ch;
     text-align: left;
     text-transform: ladsowercase;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 
 .container {
