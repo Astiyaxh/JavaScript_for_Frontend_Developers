@@ -68,7 +68,7 @@ h4,
 h5,
 h6 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    letter-spacing: -1px;
+    /* letter-spacing: -1px; */
     text-transform: capitalize;
     color: white;
 }
@@ -83,6 +83,11 @@ h2 {
     margin-bottom: 7rem;
 }
 
+h3 {
+    font-size: 1.953remrem;
+    margin-bottom: 0.5rem;
+}
+
 p {
     font-family: fantasy;
     color: #ccc;
@@ -90,7 +95,7 @@ p {
     text-align: left;
     text-transform: lowercase;
     margin-top: 2.5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
 }
 
 .container {
