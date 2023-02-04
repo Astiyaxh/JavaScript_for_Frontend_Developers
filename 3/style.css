@@ -124,3 +124,32 @@ p {
     text-decoration: none;
     color: #00ADB5;
 } 
+
+#back-to-top {
+    background-color:#EEEEEE;
+    border-radius: 50px;
+    border: none;
+    bottom: 3rem;
+    box-shadow: 0 0 2rem 0 rgb(0, 0, 0, 0.25);
+    color: #222831;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    opacity: 0;
+    padding: .7rem 1rem;
+    position: fixed;
+    right: 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+#back-to-top:hover {
+    background-color: #222831;
+    color: #EEEEEE;
+}
+
+#back-to-top.visible {
+    opacity: 1;
+}
