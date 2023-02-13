@@ -3,6 +3,7 @@ var btn     = document.getElementById("back-to-top"),
     docElem = document.documentElement,
     offset  = 100,
     scrollPos, docHeight;
+    isFirefox = navigator.userAgent.toLowerCase().indexOf("firefox") > -1;
 
 
 //calculate the document height
@@ -15,4 +16,14 @@ if (docHeight != 'undefined'){
 window.addEventListener("scroll", function(event){
     scrollPos = body.scrollTop || docElem.scrollTop;
     btn.className = ( scrollPos > offset ) ? "visible" : ""
+});
+
+btn.addEventListener("click", function(event){
+    event.preventDefault();
+
+    if(isFirefox) {
+        docElem.scrollTop = 0;
+    }else {
+        body.scrollTop == 0;
+    }
 });
